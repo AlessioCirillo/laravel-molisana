@@ -1,0 +1,13 @@
+.posters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    .poster{
+        flex-basis: 30%;
+        margin: 1%;
+        img{
+            width: 100%;
+        }
+    }
+}
