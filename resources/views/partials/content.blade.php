@@ -6,6 +6,8 @@
             <div class="poster">
                 <img src="{{ $poster['src'] }}" alt="{{ $poster['titolo'] }}">
                 <h3>{{ $poster['titolo'] }}</h3>
+                
+                <a href="{{ route('product', $poster['id']) }}">vedi prodotto</a>
             </div>
         @endforeach
     </div>
@@ -20,6 +22,7 @@
             <div class="poster">
                 <img src="{{ $poster['src'] }}" alt="{{ $poster['titolo'] }}">
                 <h3>{{ $poster['titolo'] }}</h3>
+                <a href="{{ route('product', $poster['id']) }}">vedi prodotto</a>
             </div>
         @endforeach
     </div>
@@ -34,6 +37,7 @@
             <div class="poster">
                 <img src="{{ $poster['src'] }}" alt="{{ $poster['titolo'] }}">
                 <h3>{{ $poster['titolo'] }}</h3>
+                <a href="{{ route('product', $poster['id']) }}">vedi prodotto</a>
             </div>
         @endforeach
     </div>

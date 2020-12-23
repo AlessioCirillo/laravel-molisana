@@ -18,19 +18,27 @@ h1 {
 header {
   text-align: center;
 }
+header ul {
+  display: flex;
+}
 
 .posters {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-
 .posters .poster {
   flex-basis: 30%;
   margin: 1%;
 }
-
 .posters .poster img {
   width: 100%;
 }
 
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.container img {
+  width: 100%;
+}
