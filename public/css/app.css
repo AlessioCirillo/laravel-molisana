@@ -15,6 +15,15 @@ h1 {
   margin-left: 20px;
 }
 
+ul {
+  justify-content: center;
+  list-style: none;
+}
+ul li {
+  text-align: center;
+  margin: 20px;
+}
+
 header {
   text-align: center;
 }
@@ -30,6 +39,7 @@ header ul {
 .posters .poster {
   flex-basis: 30%;
   margin: 1%;
+  margin-bottom: 30px;
 }
 .posters .poster img {
   width: 100%;
@@ -38,6 +48,7 @@ header ul {
 .container {
   width: 1200px;
   margin: auto;
+  margin-bottom: 30px;
 }
 .container img {
   width: 100%;
