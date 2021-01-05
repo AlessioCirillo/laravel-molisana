@@ -6,13 +6,13 @@
     <nav>
         <ul>
             <li>
-                <a href="{{ route('home') }}">HOME</a>
+                <a href="{{ route('home') }}">Home</a>
             </li>
-            {{-- <li>
-                <a href="{{ route('products') }}">PROUCTS</a>
-            </li> --}}
             <li>
-                <a href="{{ route('news') }}">NEWS</a>
+                <a href="">Prodotti</a>
+            </li>
+            <li>
+                <a href="{{ route('news') }}">News</a>
             </li>
         </ul>
     </nav>

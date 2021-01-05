@@ -3,5 +3,11 @@ header{
 
     ul{
         display: flex;
+        justify-content: center;
+        
+        li{
+            text-align: center;
+            margin: 20px;
+        }
     }
 }

@@ -5,23 +5,35 @@
 }
 
 body{
-    width: 1200px;
     margin: auto;
-    padding: 0 15px;
     font-family: sans-serif;
 }
 
+.home{
+    padding: 40px;
+    background-image: url('../img/fondo-pag-speciali.jpg');
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    color: #022f74;
+}
 
 h1{
     margin-left: 20px;
 }
 
 ul{
-    justify-content: center;
     list-style: none;
+}
 
-    li{
-        text-align: center;
-        margin: 20px;
+a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+    &:active{
+        background: #b2e5fc;
     }
 }
